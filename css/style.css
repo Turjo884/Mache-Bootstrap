@@ -130,3 +130,77 @@ header p{
     width: 600px;
 }
 /* Start About Section */
+
+/* Start Service Section */
+.service{
+    padding: 100px 0 75px;
+}
+.service h2{
+    font-size: 40px;
+    font-weight: 300;
+    color: #5a5a5a;
+    font-style: italic;
+    text-align: center;
+}
+.service .title-border{
+    margin: 20px auto;
+}
+.service p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 100px;
+    margin-bottom: 75px;
+}
+.service img{
+    display: block;
+    margin: 0 auto;
+}
+.service h4{
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0;
+    color: #ed145b;
+    font-weight: 600;
+}
+/* End Service Section */
+
+/* Start Testimonial Section */
+.testimonial{
+    background: url(../img/background.png) no-repeat top center;
+    background-size: cover;
+}
+.owl-carousel .owl-item img{
+    width: 50px;
+    display: block;
+    margin: 20px auto;
+}
+.testimonial p{
+    font-size: 25px;
+    color: #d7d7d7;
+    padding: 0 200px;
+    text-align: center;
+    font-weight: 300;
+    font-style: italic;
+}
+.owl-prev{
+    position: absolute;
+    left: 0;
+    top: 30%;
+    color: #fff !important;
+    font-size: 60px !important;
+}
+.owl-next{
+    position: absolute;
+    right: 0;
+    top: 30%;
+    color: #fff !important;
+    font-size: 60px !important;
+}
+.owl-theme .owl-nav [class*=owl-]:hover {
+    background: transparent;
+    color: #ed145b !important;
+}
+/* Start Testimonial Section */
+
+
