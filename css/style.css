@@ -14,6 +14,11 @@ ul{
     margin: 0;
     padding: 0;
 }
+.title-border{
+    width: 25%;
+    height: 2px;
+    background: #ed145b;
+}
 /*End Global CSS  */
 
 /* Start Header Section */
@@ -48,9 +53,6 @@ header h1 span{
     font-weight: 700;
 }
 header .title-border{
-    width: 21%;
-    height: 2px;
-    background: #ed145b;
     margin: 20px auto;
 }
 header p{
@@ -72,3 +74,59 @@ header p{
     margin: 0 auto;
 }
 /* End  Header Section */
+
+/* Start About Section */
+.about{
+    background: #f4f4f4;
+    padding: 75px 0;
+    position: relative;
+}
+.about::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: url(../img/crop-line.png) no-repeat top center;
+    background-size: cover;
+    width: 100%;
+    height: 30px;
+}
+.about h2{
+    font-size: 40px;
+    font-weight: 300;
+    color: #5a5a5a;
+    font-style: italic;
+    line-height: 50px;
+}
+.about .title-border{
+    margin: 20px 0;
+}
+.about p{
+    font-size: 16px;
+    padding-bottom: 20px;
+    margin: 0;
+}
+.about a{
+    text-transform: uppercase;
+    color:#ed145b;
+    font-weight: 600;
+}
+.fa-play{
+    border: 1px solid #ed145b;
+    border-radius: 50%;
+    padding: 4px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    line-height: 16px;
+}
+.laptop-screen{
+    position: relative;
+}
+.laptop-screen .screen-img{
+    position: absolute;
+    bottom: -130px;
+    left: 0;
+    width: 600px;
+}
+/* Start About Section */
