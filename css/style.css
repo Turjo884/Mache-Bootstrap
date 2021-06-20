@@ -19,6 +19,9 @@ ul{
     height: 2px;
     background: #ed145b;
 }
+.mb-50{
+    margin-bottom: 50px;
+}
 /*End Global CSS  */
 
 /* Start Header Section */
@@ -289,3 +292,23 @@ header p{
     cursor: pointer;
 }
 /* End Prizing Section */
+
+/* Start Additional Section */
+.additional{
+    padding: 100px 0 50px;;
+}
+.additional h4{
+    font-size: 18px;
+    text-align: left;
+    color: #ed145b;
+    font-weight: 600;
+    margin-bottom: 15px;
+}
+.additional p{
+    font-size: 16px;
+    /* color: #8d8d8d; */
+    color: #5a5a5a;
+    line-height: 27px;
+    margin: 0;
+}
+/* End Additional Section */
