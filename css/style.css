@@ -203,4 +203,89 @@ header p{
 }
 /* Start Testimonial Section */
 
-
+/* Start Prizing Section*/
+.prizing{
+    background: #f4f4f4;
+    padding: 75px 0;
+}
+.prizing h2{
+    text-align: center;
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 300;
+    color: #5a5a5a;
+}
+.prizing .title-border{
+    margin: 20px auto;
+}
+.prizing p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 100px;
+    margin-bottom: 75px;
+}
+.prizing .prizing-head{
+    position: relative;
+    background: #5a5a5a;
+    padding: 30px;
+    transition: .5s ease-in-out; 
+}
+.prizing .prizing-head h4{
+    font-size: 40px;
+    text-align: center;
+    color: #fff;
+    margin: 0;
+}
+.prizing-head h4 span{
+    font-size: 22px;
+}
+.prizing-head h5{
+    font-size: 18px;
+    text-align: center;
+    color: #fff;
+    margin-bottom: 20px;
+    text-transform: lowercase;
+}
+.prizing-head .btn-top{
+    position: absolute;
+    bottom: -22px;
+    left: 23px;
+    color: #5a5a5a;
+    font-weight: 600;
+    font-size: 18px;
+    text-transform: uppercase;
+    background: #f4f4f4;
+    border: none;
+    outline: 0;
+    padding: 8px 55px;
+    border-radius: 25px;
+}
+.prizing-body{
+    padding: 40px 30px;
+    background: #fff;
+}
+.prizing-body ul li{
+    list-style-type: none;
+    line-height: 45px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #8d8d8d;
+    text-align: center;
+}
+.prizing-body .btn-bottom{
+    border: none;
+    outline: 0;
+    padding: 8px 55px;
+    background: #ed145b;
+    border-radius: 25px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    margin-top: 20px;
+}
+.prizing-box:hover .prizing-head{
+    background: #ed145b;
+    cursor: pointer;
+}
+/* End Prizing Section */
