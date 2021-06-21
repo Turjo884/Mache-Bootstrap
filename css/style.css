@@ -306,9 +306,143 @@ header p{
 }
 .additional p{
     font-size: 16px;
-    /* color: #8d8d8d; */
     color: #5a5a5a;
     line-height: 27px;
     margin: 0;
 }
 /* End Additional Section */
+
+/* Start Join Us Section */
+.join{
+    background: #ed145b;
+    padding: 40px 0;
+}
+.join h2{
+    color: #fff;
+    font-size: 30px;
+    font-weight: 300;
+    text-transform: uppercase;
+    margin-bottom: 0;
+    padding-top: 5px;
+}
+.join span{
+    font-weight: 600;
+}
+.join .btn-join{
+    border: none;
+    outline: none;
+    background: #fff;
+    color: #ed145b;
+    font-size: 18px;
+    font-weight: 600;
+    padding: 7px 55px;
+    border-radius: 50px;
+    text-transform: uppercase;
+}
+/* End Join Us Section */
+
+/* Start News Section */
+.news{
+    padding: 120px 0 75px ;
+}
+.news h2{
+    font-size: 40px;
+    font-weight: 300;
+    text-align: center;
+    color: #5a5a5a;
+    font-style: italic;
+    line-height: 50px;
+}
+.news .title-border{
+    margin: 20px auto;
+}
+.news p{
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+    padding: 0 100px;
+    margin-bottom: 75px
+}
+.item-top{
+    display: block;
+    margin: 0 auto;
+    position: relative;
+    width: 360px;
+    height: 250px;
+    overflow: hidden;
+}
+.img-hover{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: -100%;
+    background: rgba(237,20,91,1);
+    transition: .5s ease-in-out;
+}
+.item-top:hover .img-hover{
+    background: rgba(237,20,91,.9);
+    right: 0;
+}
+.double{
+    margin-bottom: 55px;
+}
+.img-hover ul{
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+.img-hover ul li{
+    list-style-type: none;
+}
+.img-hover ul li .fa{
+    color: #fff;
+    font-size: 30px;
+}
+.item-bottom{
+    display: block;
+    margin: 0 auto;
+    background: #f4f4f4;
+    width: 360px;
+    padding: 20px;
+}
+.item-bottom h4{
+    font-size: 17px;
+    text-align: left;
+    color: #5a5a5a;
+    margin-bottom: 15px;
+}
+.item-bottom p{
+    font-size: 15px;
+    line-height: 28px;
+    color: #8a8a8a;
+    padding: 0;
+    text-align: left;
+    margin-bottom: 0;
+}
+.news h5{
+    color: #ed145b;
+    text-align: center;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    margin: 30px 0 0;
+}
+.news i{
+    display: block;
+    text-align: center;
+    font-size: 30px;
+    color: #ed145b;
+}
+/* Start News Section */
+
+/* Start Additional Info 2 */
+.additional-info-2{
+    background: url(../img/background.png) no-repeat top center;
+    background-size: cover;
+    padding: 200px;
+}
+/* Start Additional Info 2 */
+
+
+
