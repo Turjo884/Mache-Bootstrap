@@ -528,18 +528,21 @@ footer .second-copy{
     .about a{display: block;text-align: center;}
     .service{padding: 85px 0;}
     .service h1{font-size: 35px;}
-    .service p{margin-bottom: 25px;}
+    .service p{margin-bottom: 25px; padding: 0 50px;text-align: center;}
     .service h4{margin: 20px 0 40px;}
     .testimonial p {font-size: 18px;padding: 0 50px;}
     .prizing {padding: 75px 0px 25px;}
     .prizing h2 {font-size: 35px;}
+    .prizing p{padding: 0 50px;}
     .prizing-box{margin-bottom: 45px;}
     .additional{padding: 50px 0 30px;}
     .additional img{display: block;margin: 0 auto 15px;}
     .additional .mb-50{margin-bottom: 38px;}
     .additional h4, .additional p{text-align: center;}
     .join { text-align: center;}
-    .join .btn-join{margin-top: 20px;}
+    .join .btn-join{margin-top: 25px;}
+    .news p{padding: 0 50px;}
+    .news .item-bottom p{padding: 0;}
     .additional-info-2 h1{font-style: 40px;}
     .additional-info-2 p{padding: 0 50px;}
     .download h2{font-size: 35px;text-align: center;}
