@@ -231,7 +231,7 @@ header p{
     margin-bottom: 75px;
 }
 .prizing .prizing-head{
-    position: relative;
+    /* position: relative; */
     background: #5a5a5a;
     padding: 30px;
     transition: .5s ease-in-out; 
@@ -249,13 +249,11 @@ header p{
     font-size: 18px;
     text-align: center;
     color: #fff;
-    margin-bottom: 20px;
     text-transform: lowercase;
 }
 .prizing-head .btn-top{
-    position: absolute;
-    bottom: -22px;
-    left: 23px;
+    display: block;
+    margin: 30px auto -50px;
     color: #5a5a5a;
     font-weight: 600;
     font-size: 18px;
@@ -279,6 +277,8 @@ header p{
     text-align: center;
 }
 .prizing-body .btn-bottom{
+    display: block;
+    margin: 25px auto 0;
     border: none;
     outline: 0;
     padding: 8px 55px;
@@ -287,7 +287,6 @@ header p{
     color: #fff;
     font-size: 18px;
     font-weight: 600;
-    margin-top: 20px;
 }
 .prizing-box:hover .prizing-head{
     background: #ed145b;
@@ -442,7 +441,7 @@ header p{
 .additional-info-2{
     background: url(../img/background.png) no-repeat top center;
     background-size: cover;
-    padding: 150px;
+    padding: 150px 0;
 }
 .additional-info-2 h1{
     text-align: center;
@@ -497,7 +496,7 @@ header p{
 /* Start Footer Section */
 footer{
     background: #2b2b2b;
-    padding: 20px;
+    padding: 10px;
 }
 footer p{
     color: #fff;
@@ -508,12 +507,52 @@ footer .copy-right{
 }
 footer span{
     color: #ed145b;
-    font-size: 25px;
+    font-size: 30px;
+    padding: 0 2px;
 }
 footer .second-copy{
-    padding-top: 5px;
+    padding-top: 2px;
 }
 /* Start Footer Section */
+
+/* Start Media Quires For Mobile Device */
+@media (min-width: 320px) and (max-width: 576px){
+    header .fa{color: #fff;}
+    .banner-content {padding: 150px 0px;}
+    header h1{font-size: 40px;}
+    header p{padding: 0 90px;}
+    .laptop-screen .screen-img { position: relative;bottom: -50px;width: 100%;margin: 0 auto;}
+    .about h2{font-size: 35px;text-align: center;}
+    .about .title-border{margin: 20px auto;}
+    .about p{text-align: center;}
+    .about a{display: block;text-align: center;}
+    .service{padding: 85px 0;}
+    .service h1{font-size: 35px;}
+    .service p{margin-bottom: 25px;}
+    .service h4{margin: 20px 0 40px;}
+    .testimonial p {font-size: 18px;padding: 0 50px;}
+    .prizing {padding: 75px 0px 25px;}
+    .prizing h2 {font-size: 35px;}
+    .prizing-box{margin-bottom: 45px;}
+    .additional{padding: 50px 0 30px;}
+    .additional img{display: block;margin: 0 auto 15px;}
+    .additional .mb-50{margin-bottom: 38px;}
+    .additional h4, .additional p{text-align: center;}
+    .join { text-align: center;}
+    .join .btn-join{margin-top: 20px;}
+    .additional-info-2 h1{font-style: 40px;}
+    .additional-info-2 p{padding: 0 50px;}
+    .download h2{font-size: 35px;text-align: center;}
+    .download .title-border{margin: 20px auto;}
+    .download p{text-align: center;}
+    .download .btn-download{display: block;margin: 0 auto;}
+    footer{padding: 0;}
+    footer p{text-align: center;}
+    footer .copy-right p{margin: 0;padding: 0;}
+    footer .second-copy{margin-top: -15px;}
+}
+/* End Media Quires For Mobile Device */
+
 
 
 
