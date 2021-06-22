@@ -598,10 +598,42 @@ footer .second-copy{
 /* End Media Quires For Medium Device */
 
 /* Start Media Quires For Notebook Device */
-
+@media (min-width: 768px) and (max-width: 992px){
+    header .fa{color: #fff;}
+    .banner-content {padding: 150px 0px;}
+    header h1{font-size: 45px;}
+    header p{padding: 0 90px;}
+    .laptop-screen .screen-img { position: relative;bottom: -50px;width: 100%;margin: 0 auto;}
+    .about h2{font-size: 38px;text-align: center;}
+    .about .title-border{margin: 20px auto;}
+    .about p{text-align: center;}
+    .about a{display: block;text-align: center;}
+    .service{padding: 85px 0;}
+    .service h1{font-size: 38px;}
+    .service p{margin-bottom: 25px; padding: 0 80px;text-align: center;}
+    .service h4{margin: 20px 0 40px;}
+    .testimonial p {font-size: 22px;padding: 0 80px;}
+    .prizing {padding: 75px 0px 25px;}
+    .prizing h2 {font-size: 38px;}
+    .prizing p{padding: 0 80px;}
+    .prizing-box{margin-bottom: 45px;}
+    .additional{padding: 50px 0 30px;}
+    .additional img{display: block;margin: 0 auto 15px;}
+    .additional .mb-50{margin-bottom: 38px;}
+    .additional h4, .additional p{text-align: center;}
+    .join { text-align: center;}
+    .join .btn-join{margin-top: 25px;}
+    .news p{padding: 0 80px;}
+    .news .item-bottom p{padding: 0;}
+    .additional-info-2 h1{font-style: 45px;}
+    .additional-info-2 p{padding: 0 80px;}
+    .download h2{font-size: 38px;text-align: center;}
+    .download .title-border{margin: 20px auto;}
+    .download p{text-align: center;}
+    .download .btn-download{display: block;margin: 0 auto;}
+    footer{padding: 0;}
+    footer p{text-align: center;}
+    footer .copy-right p{margin: 0;padding: 0;}
+    footer .second-copy{margin-top: -15px;}
+}
 /* End Media Quires For Notebook Device */
-
-
-
-
-
