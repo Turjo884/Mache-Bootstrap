@@ -254,6 +254,7 @@ header p{
 .prizing-head .btn-top{
     display: block;
     margin: 30px auto -50px;
+    text-align: center;
     color: #5a5a5a;
     font-weight: 600;
     font-size: 18px;
