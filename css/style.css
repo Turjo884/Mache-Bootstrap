@@ -134,7 +134,7 @@ header p{
     left: 0;
     width: 600px;
 }
-/* Start About Section */
+/* End About Section */
 
 /* Start Service Section */
 .service{
@@ -206,7 +206,7 @@ header p{
     background: transparent;
     color: #ed145b !important;
 }
-/* Start Testimonial Section */
+/* End Testimonial Section */
 
 /* Start Prizing Section*/
 .prizing{
@@ -436,7 +436,7 @@ header p{
     font-size: 30px;
     color: #ed145b;
 }
-/* Start News Section */
+/* End News Section */
 
 /* Start Additional Info 2 */
 .additional-info-2{
@@ -463,7 +463,7 @@ header p{
     line-height: 28px; 
     margin: 0 0 40px;
 }
-/* Start Additional Info 2 */
+/* End Additional Info 2 */
 
 /* Start Download Section */
 .download{
@@ -492,7 +492,7 @@ header p{
     font-size: 16px;
     padding: 8px 20px;
 }
-/* Start Download Section */
+/* End Download Section */
 
 /* Start Footer Section */
 footer{
@@ -514,7 +514,8 @@ footer span{
 footer .second-copy{
     padding-top: 2px;
 }
-/* Start Footer Section */
+/* End Footer Section */
+
 
 /* Start Media Quires For Mobile Device */
 @media (min-width: 320px) and (max-width: 576px){
@@ -557,7 +558,8 @@ footer .second-copy{
 }
 /* End Media Quires For Mobile Device */
 
-/* Start Media Quires For Medium Device */
+
+/* Start Media Quires For Tablet Device */
 @media (min-width: 576px) and (max-width: 768px){
     header .fa{color: #fff;}
     .banner-content {padding: 150px 0px;}
@@ -596,7 +598,8 @@ footer .second-copy{
     footer .copy-right p{margin: 0;padding: 0;}
     footer .second-copy{margin-top: -15px;}
 }
-/* End Media Quires For Medium Device */
+/* End Media Quires For  Device */
+
 
 /* Start Media Quires For Notebook Device */
 @media (min-width: 768px) and (max-width: 992px){
